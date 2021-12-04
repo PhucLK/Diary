@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 2rem 0;
+}
+
+nav {
+  width: 40%;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: var(--fs-large);
+}
+li {
+  font-family: inherit;
+  /* font-size: var(--fs-large); */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.7s;
+  font-family: inherit;
+ 
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--color-light-blue);
+}
+
+span.user-name {
+  color: var(--color-light-blue);
+  font-weight: bold;
+}
+
+
+
+.footer{
+    text-align: center;
+    margin-top: 70%;
+}
+

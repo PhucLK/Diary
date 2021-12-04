@@ -1,0 +1,37 @@
+section.post-list {
+  width: 100%;
+  /* font-family: inherit;
+  font-size: var(--fs-large);
+  font-weight: bold; */
+  font-size: var(--fs-large);
+}
+div.post-item {
+  margin: 2rem 0;
+  background-color: var(--color-dark-blue);
+  font-size: inherit;
+
+}
+
+p.post-content {
+  /* font-family: inherit; */
+  font-weight: bold;
+  font-size: inherit;
+}
+
+.post-footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-infors span:not(:last-child) {
+  margin-right: 1rem;
+}
+.post-actions span:not(:last-child) {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.btn-container {
+  align-self: flex-end;
+}
